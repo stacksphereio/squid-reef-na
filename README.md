@@ -4,7 +4,7 @@ Regional feed service for Europe in the SquidStack Reef Feeds feature. Provides 
 
 ## Overview
 
-The squid-reef-na service provides:
+The squid-squid-reef-na service provides:
 - Stub weather data for European countries
 - Stub news data with European headlines
 - Simple HTTP JSON API
@@ -41,10 +41,10 @@ go build -o app main.go
 ./app
 
 # Docker build
-docker build -t squid-reef-na .
+docker build -t squid-squid-reef-na .
 
 # Docker run
-docker run -p 8080:8080 squid-reef-na
+docker run -p 8080:8080 squid-squid-reef-na
 ```
 
 ## API Response Example

@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"reef-na/internal/feeds"
+	"squid-reef-na/internal/feeds"
 )
 
 func TestHealthEndpoint(t *testing.T) {

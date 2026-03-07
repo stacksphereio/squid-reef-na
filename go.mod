@@ -1,4 +1,4 @@
-module reef-na
+module squid-reef-na
 
 go 1.24
 

@@ -9,10 +9,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"reef-na/internal/featureflags"
-	"reef-na/internal/feeds"
-	mw "reef-na/internal/http/middleware"
-	"reef-na/internal/logger"
+	"squid-reef-na/internal/featureflags"
+	"squid-reef-na/internal/feeds"
+	mw "squid-reef-na/internal/http/middleware"
+	"squid-reef-na/internal/logger"
 )
 
 // NewsItem represents a single news article
@@ -171,6 +171,6 @@ func main() {
 		Handler:           r,
 		ReadHeaderTimeout: 5 * time.Second,
 	}
-	logger.Infof("reef-na listening on %s", s.Addr)
+	logger.Infof("squid-reef-na listening on %s", s.Addr)
 	log.Fatal(s.ListenAndServe())
 }
