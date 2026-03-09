@@ -1,6 +1,7 @@
 # StackSphere squid-reef-na CI Pipeline
 # ARCH VERSION: 0.5
 # Purpose: Automated CI/CD with dev/integ deployment
+# Test trigger: parallel upload test
 
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
