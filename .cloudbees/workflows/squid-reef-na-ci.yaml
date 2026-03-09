@@ -35,7 +35,7 @@ jobs:
 
   build:
     needs: test
-    uses: github.com/stacksphereio/core-workflows/.cloudbees/workflows/component-build.yaml@main
+    uses: github.com/stacksphereio/core-workflows/.cloudbees/workflows/component-build.yaml@upload-without-delay
     with:
       component_name: squid-reef-na
       docker_user: ${{ vars.DOCKER_USER }}
